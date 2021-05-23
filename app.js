@@ -82,6 +82,12 @@ try {
   }
 }
 
+// add health endpoint
+app.get('/health', (req, res) => {
+  console.log('Health Check called');
+  res.send('UP');
+});
+
 // Endpoint to be call from the client side
 app.post('/api/message', function(req, res) {
 
