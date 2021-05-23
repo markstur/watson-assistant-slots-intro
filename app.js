@@ -39,7 +39,7 @@ var workspaceID; // workspaceID will be set when the workspace is created or val
 
 // Set to false if you want the app to not immediately fail.
 // App will come up and ask user to provide proper Watson Assistant credentials.
-const failOnMissingCredentials = true;
+const failOnMissingCredentials = false;
 
 // Authentication relies on env settings
 let auth;
